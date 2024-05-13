@@ -19,7 +19,7 @@ function bzb_header_social_buttons(){
   if( isset($twitter_from_db) && $twitter_from_db !== '' ){
     $header_social_buttons .= '<li class="twitter_icon"><a target="_blank" href="https://twitter.com/' . $twitter_from_db . '"><i class="fa fa-twitter-square"></i></a></li>';
   }
-  $header_social_buttons .= '<li class="feedly_icon"><a target="_blank" href="https://feedly.com/i/subscription/feed/' . $feedly_url . '"><i class="fa fa-rss"></i></a></li>';
+  //$header_social_buttons .= '<li class="feedly_icon"><a target="_blank" href="https://feedly.com/i/subscription/feed/' . $feedly_url . '"><i class="fa fa-rss"></i></a></li>';
   $header_social_buttons .= '</ul>';
   $header_social_buttons .= '</div>';
 
