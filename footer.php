@@ -24,13 +24,13 @@
         <div id="footer-list-area" class="gr6">
           <div class="row">
 
-      <?php if( has_nav_menu( 'footer_nav' ) ){
-      //bzb_get_nav_menu_name();
-        echo '<div id="footer-cont-about" class="gr4">';
-        echo "<h4>" . get_option('footer_menu_title') . "</h4>";
+      <?php 
+      
+      echo '<div id="footer-cont-about" class="gr4">';
+        echo "<h4>サイトマップ</h4>";
         wp_nav_menu(
           array(
-            'theme_location'  => 'footer_nav',
+            'theme_location'  => 'footer_menu',
             'menu_class'      => '',
             'menu_id'         => 'fnav',
             'container'       => 'nav',
@@ -38,26 +38,8 @@
           )
         );
         echo '</div>';
-      } //if footer_nav
+
       ?>
-
-    <?php if( has_nav_menu( 'global_nav' ) ){ ?>
-
-            <div id="footer-cont-content" class="gr4">
-              <h3>ブログコンテンツ</h3>
-      <?php
-        wp_nav_menu(
-          array(
-            'theme_location'  => 'global_nav',
-            'menu_class'      => 'clearfix',
-            'menu_id'         => 'footer-gnav-ul',
-            'container'       => 'div',
-            'container_id'    => 'footer-gnav-container',
-            'container_class' => 'gnav-container'
-          )
-        );?>
-    </div>
-    <?php } ?>
 
             <div id="footer-cont-sns" class="gr4">
               <h3>ソーシャルメディア</h3>
