@@ -146,64 +146,10 @@
 
 
 
-<!-- サービス紹介 -->
-<?php
-  $icon = 'none';
-  $title = '';
-  $ruby = '';
-  $bzb_ruby = '';
-  $bzb_catch = '';
-  $bzb_service_header_array = get_option('bzb_service_header');
-  if(is_array($bzb_service_header_array)){
-    extract($bzb_service_header_array) ;
-  }
-
-?>
-<div id="front-service" class="front-main-cont">
-
-  <header class="category_title main_title front-cont-header">
-    <div class="cont-icon"><i class="<?php echo $icon;?>"></i></div>
-    <h2 class="cont-title"><?php echo $title;?></h2>
-    <p class="cont-ruby"><?php echo $ruby;?></p>
-    <div class="tri-border"><span></span></div>
-  </header>
-
-
-  <div class="wrap">
-    <div class="front-service-inner">
-
-<?php
-  $i = 1;
-  $bzb_service = get_option('bzb_service');
-  if(isset($bzb_service)){
-  foreach((array)$bzb_service as $key => $value){
-    extract(make_info_4top($value));
-    if( isset($value['syubetu']) ) :
-?>
-      <section id="front-service-1" class="c_box">
-        <div class="c_title">
-          <h3><?php echo $title;?></h3>
-          <p class="c_english"><?php echo $bzb_ruby;?></p>
-        </div>
-        <div class="c_text">
-          <h4><?php echo nl2br($bzb_catch);?></h4>
-          <p><?php echo $service;?></p>
-          <?php if(isset($button_text) && $button_text !== '') { ?>
-            <p class="c_btn"><a href="<?php echo $button_url;?>" class="btn"><?php echo $button_text;?></a></p>
-          <?php }else{ ?>
-            <p class="c_btn"><a href="<?php echo $url;?>" class="btn">詳しく見る</a></p>
-          <?php } ?>
-        </div>
-      </section>
-  <?php
-    endif;
-    }
-  }
-  ?>
-    </div>
-  </div>
-
-</div><!-- /front-contents -->
+<!-- 
+//サービス紹介
+<div id="front-service" class="front-main-cont"></div>
+-->
 
 <!-- 会社概要 -->
 <div id="front-company" class="front-main-cont">
