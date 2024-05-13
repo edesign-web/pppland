@@ -907,7 +907,7 @@ function footer_social_buttons(){
           if(isset($facebook_page_url) && $facebook_page_url !== ''){
             $footer_social_buttons .= '<li class="header-facebook"><a href="' . $facebook_page_url . '" target="_blank"><i class="fa fa-facebook-square"></i>Facebook</a></li>';
           }
-          $footer_social_buttons .= '<li class="header-feedly"><a target="_blank" href="https://feedly.com/i/subscription/feed/' . $feedly_url . '"><i class="fa fa-rss-square"></i>Feedly</a></li>';
+          //$footer_social_buttons .= '<li class="header-feedly"><a target="_blank" href="https://feedly.com/i/subscription/feed/' . $feedly_url . '"><i class="fa fa-rss-square"></i>Feedly</a></li>';
         $footer_social_buttons .= '</ul>';
         $footer_social_buttons .= '</div>';
 
