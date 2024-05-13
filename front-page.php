@@ -127,8 +127,6 @@
           <p><?php echo $content;?></p>
           <?php if($button_url != ''){ ?>
           <p class="c_btn"><a href="<?php echo $button_url;?>" class="btn"><?php echo $button_text;?></a></p>
-          <?php }else{ ?>
-          <p class="c_btn"><a href="<?php echo $url;?>" class="btn">詳しく見る</a></p>
           <?php } ?>
         </div>
       </div>
