@@ -19,7 +19,7 @@
 
 <div id="recent_post_content" class="front-loop">
 
-<h2>メディア</h2>
+<h2>MEDIA & NEWS</h2>
 <div class="wrap">
   <div class="front-loop-cont">
 <?php
