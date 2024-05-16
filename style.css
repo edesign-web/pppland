@@ -4808,6 +4808,10 @@ body.color04.single-lp #lp-header{
 
 @media screen and ( max-width: 767px ){
 
+    .ppp-mv {
+        min-height: 0;
+    }
+
     .ppp-mv--inner > h2 {
         font-size: 24px;
         line-height: 40px;
