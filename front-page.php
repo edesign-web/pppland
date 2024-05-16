@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 
-<div class="mv">
-    <div class="mv--inner">
+<div class="ppp-mv">
+    <div class="ppp-mv--inner">
 
         <?php
 
@@ -24,7 +24,7 @@
         ?>
 
     </div>
-    <p class="mv--bg">
+    <p class="ppp-mv--bg">
         <img src="<?php echo get_template_directory_uri(); ?>/lib/images/mv.jpg" alt="">
     </p>
 </div>
