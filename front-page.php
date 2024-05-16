@@ -1,10 +1,29 @@
 <?php get_header(); ?>
 
-<div id="main_visual">
-  <div class="wrap">
-    <h2><?php echo nl2br(get_option('top_catchcopy'));?></h2>
-    <p><?php echo nl2br(get_option('top_description'));?></p>
-  </div><!-- .wrap -->
+<div class="mv">
+    <div class="mv--inner">
+
+        <?php
+
+        $catchcopy = get_option( 'top_catchcopy' );
+
+        if ( $catchcopy ) {
+
+            echo '<h2>' . $catchcopy . '</h2>';
+
+        }
+
+        $description = get_option( 'top_description' );
+
+        if ( $description ) {
+
+            echo '<p>' . $description . '</p>';
+
+        }
+
+        ?>
+
+    </div>
 </div>
 
 <div id="content">
