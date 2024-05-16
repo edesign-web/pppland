@@ -4812,6 +4812,9 @@ body.color04.single-lp #lp-header{
 
     .ppp-mv {
         min-height: 0;
+    }
+
+    .ppp-mv--inner {
         padding: 48px 24px;
     }
 
