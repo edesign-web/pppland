@@ -4752,3 +4752,40 @@ body.color04.single-lp #lp-header{
     max-width: initial;
   }
 }
+
+
+/* ----------------------------------------
+* PPP MV
+---------------------------------------- */
+
+.ppp-mv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    min-height: 480px;
+}
+
+.ppp-mv--inner {
+    position: relative;
+    z-index: 2;
+    width: 100%;
+}
+
+.ppp-mv--bg {
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.ppp-mv--bg > img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
