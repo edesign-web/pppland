@@ -4765,7 +4765,7 @@ body.color04.single-lp #lp-header{
     position: relative;
     width: 100%;
     min-height: 480px;
-    text-align: centers;
+    text-align: center;
     color: #FFF;
 }
 
@@ -4778,7 +4778,7 @@ body.color04.single-lp #lp-header{
 
 .ppp-mv--inner > h2 {
     width: 100%;
-    font-size: 48px;
+    font-size: 36px;
     line-height: 70px;
     margin-bottom: 24px;
 }
