@@ -24,6 +24,9 @@
         ?>
 
     </div>
+    <p class="mv--bg">
+        <img src="<?php echo get_template_directory_uri(); ?>/lib/images/mv.jpg" alt="">
+    </p>
 </div>
 
 <div id="content">
