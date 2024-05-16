@@ -4765,12 +4765,29 @@ body.color04.single-lp #lp-header{
     position: relative;
     width: 100%;
     min-height: 480px;
+    text-align: centers;
+    color: #FFF;
 }
 
 .ppp-mv--inner {
     position: relative;
     z-index: 2;
     width: 100%;
+    padding: 96px 24px;
+}
+
+.ppp-mv--inner > h2 {
+    width: 100%;
+    font-size: 48px;
+    line-height: 70px;
+    margin-bottom: 24px;
+}
+
+.ppp-mv--inner > p {
+    width: 100%;
+    font-size: 15px;
+    width: 600px;
+    margin: 0 auto;
 }
 
 .ppp-mv--bg {
