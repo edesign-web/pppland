@@ -4781,12 +4781,14 @@ body.color04.single-lp #lp-header{
     font-size: 36px;
     line-height: 64px;
     margin: 0;
+    text-shadow: 0 0 4px rgba( #000, 0.5 );
 }
 
 .ppp-mv--inner > p {
     width: 100%;
     font-size: 15px;
     margin: 32px 0 0;
+    text-shadow: 0 0 4px rgba( #000, 0.5 );
 }
 
 .ppp-mv--bg {
